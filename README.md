@@ -1,4 +1,4 @@
-# Hasapla!
+# Hasapla
 
 ## Oýunyň maksady
 
