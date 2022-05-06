@@ -12,7 +12,7 @@
 #root,
 html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
   overflow: hidden;
   height: 100%;
   max-height: 100%;
@@ -20,14 +20,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #fff;
-  background-image: linear-gradient(
-      90deg,
-      transparent 79px,
-      #abced4 79px,
-      #abced4 81px,
-      transparent 81px
-    ),
-    linear-gradient(#eee 0.1em, transparent 0.1em);
-  background-size: 100% 1.2em;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/background.jpg");
+  background-repeat: no-repeat;  
+  background-position: center;
 }

@@ -1,9 +1,6 @@
 import baseKeyboards from "../modules/keyboards";
-//Falta poner el orden de la respuesta...
 let levels = [];
 
-//Cargar los niveles a través de un archivo .json, además valores de configuración como las urls de los créditos...
-//Se consume el valor almacenado en localStorage del nivel en que está el usuario...
 export const loadLevels = (callback) => {
   fetch("worlds.json")
     .then((r) => r.json())
@@ -14,14 +11,10 @@ export const loadLevels = (callback) => {
     });
 };
 
-//Indica el número de niveles existentes...
 export const maxLevels = () => levels.length;
-
-//Genera el teclado que se mostrará, dependiendo del tipo...
 export const getKeyboard = (level, type = "game") => {
   let screen = { lcd: "Sazlamalar" };
   let solution = [];
-  //Traer el tipo de teclado...
   const keyboard = baseKeyboards()[type];
   if (type === "game") {
     screen = levels[level - 1].screen;
@@ -32,7 +25,6 @@ export const getKeyboard = (level, type = "game") => {
         levels[level - 1].buttons[button];
     }
   } else {
-    //Cargar el nivel actual...
     keyboard[1][1].txt = String(level);
   }
   return { screen, keyboard, solution };

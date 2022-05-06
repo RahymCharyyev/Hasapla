@@ -1,28 +1,20 @@
 .lcd_frame {
   --width_lcd_frame: var(--width_frame);
   --height_lcd_frame: calc(var(--height_frame) * 0.42);
-  /* Para las dimensiones de la carcasa del LCD... */
   --width_lcd_housing: calc(var(--width_lcd_frame) * 0.85);
   --height_lcd_housing: calc(var(--height_lcd_frame) * 0.85);
-  /* Para la dimensión del label del texto */
   --height_lcd_level_txt: calc(var(--height_lcd_housing) * 0.18);
-  /* Para la dimensión del LCD contenido */
   --height_lcd_content: calc(var(--height_lcd_housing) * 0.72);
   --width_lcd_content: calc(var(--width_lcd_housing) * 0.88);
-  /* Para las dimensiones de las opciones...*/
   --height_lcd_option: calc(var(--height_lcd_content) * 0.21);
-  /* Para el ancho del rostro...*/
   --width_lcd_face: calc(var(--width_lcd_content) * 0.23);
-  /* Para el ancho de las opciones...*/
   --width_lcd_option: calc(var(--width_lcd_content) * 0.25);
-  /* Para el alto del texto del LCD */
   --height_lcd_text: calc(var(--height_lcd_content) * 0.4);
 }
 
 .lcd_frame {
   width: var(--width_lcd_frame);
   height: var(--height_lcd_frame);
-  /* border: 2px solid blue; */
   box-sizing: border-box;
 }
 
@@ -32,9 +24,8 @@
   top: 3.2%;
   width: var(--width_lcd_housing);
   height: var(--height_lcd_housing);
-  /* border: 2px solid orange; */
   box-sizing: border-box;
-  border-radius: 5%;
+  border-radius: 10%;
   background: #373c40;
 }
 
@@ -43,7 +34,6 @@
   left: 6%;
   width: var(--width_lcd_content);
   height: var(--height_lcd_level_txt);
-  /* border: 2px solid blue; */
   box-sizing: border-box;
   color: #dedede;
   font-size: 1.2em;
@@ -58,7 +48,6 @@
   top: 18%;
   width: var(--width_lcd_content);
   height: var(--height_lcd_content);
-  /* border: 2px solid green; */
   box-shadow: inset 0px 6px 0px #899885;
   border-radius: 5%;
   box-sizing: border-box;
@@ -67,7 +56,7 @@
 
 .lcd_face {
   position: absolute;
-  left: 5%;
+  left: 4%;
   top: 8%;
   width: var(--width_lcd_face);
   height: var(--height_lcd_option);
@@ -80,7 +69,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 10%;
+  left: 25%;
   top: 18%;
   background: #a4b8a2;
   border-radius: 50%;
@@ -92,7 +81,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 10%;
+  left: 25%;
   top: 35%;
   background: #a4b8a2;
   border-radius: 50%;

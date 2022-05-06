@@ -3,21 +3,6 @@
   "short_name": "Hasapla",
   "icons": [
     {
-      "src": "/img/icon114x114.png",
-      "sizes": "114x114",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon120x120.png",
-      "sizes": "120x120",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon144x144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
       "src": "/img/icon152x152.png",
       "sizes": "152x152",
       "type": "image/png"
@@ -33,38 +18,13 @@
       "type": "image/png"
     },
     {
-      "src": "/img/icon36x36.png",
-      "sizes": "36x36",
+      "src": "/img/icon32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/img/icon48x48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon57x57.png",
-      "sizes": "57x57",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon60x60.png",
-      "sizes": "60x60",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon72x72.png",
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon76x76.png",
-      "sizes": "76x76",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/icon96x96.png",
-      "sizes": "96x96",
+      "src": "/img/icon16x16.png",
+      "sizes": "16x16",
       "type": "image/png"
     }
   ],

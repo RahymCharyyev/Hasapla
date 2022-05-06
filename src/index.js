@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
-import CalculatorGame from "./components/CalculatorGame";
+import Hasapla from "./components/hasapla";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<CalculatorGame />, document.getElementById("root"));
+ReactDOM.render(<Hasapla />, document.getElementById("root"));
 registerServiceWorker();
