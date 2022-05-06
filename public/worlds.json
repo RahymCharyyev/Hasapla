@@ -1,1019 +1,1828 @@
 {
   "urls": {
-    "code": "https://github.com/jorger",
-    "twitter": "https://twitter.com/ostjh",
-    "page": "https://jorger.github.io/page/es/"
+    "code": "https://github.com/RahymCharyyev/Hasapla"
   },
   "worlds": [
     {
-      "screen": { "moves": 2, "goal": "2", "lcd": "0" },
-      "solution": [1, 1],
+      "screen": {
+        "moves": 2,
+        "goal": "2",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "8", "lcd": "0" },
-      "solution": [1, 4, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "8",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "9", "lcd": "0" },
-      "solution": [4, 7, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "9",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        7,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "7", "lcd": "1" },
-      "solution": [1, 1, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "7",
+        "lcd": "1"
+      },
+      "solution": [
+        1,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "-" },
+          "params": {
+            "value": 2,
+            "operator": "-"
+          },
           "txt": "-2"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "4", "lcd": "3" },
-      "solution": [4, 1, 7],
+      "screen": {
+        "moves": 3,
+        "goal": "4",
+        "lcd": "3"
+      },
+      "solution": [
+        4,
+        1,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "/" },
+          "params": {
+            "value": 4,
+            "operator": "/"
+          },
           "txt": "/4"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "64", "lcd": "0" },
-      "solution": [1, 1, 4, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "64",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        4,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "5", "lcd": "4" },
-      "solution": [7, 4, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "5",
+        "lcd": "4"
+      },
+      "solution": [
+        7,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "48", "lcd": "0" },
-      "solution": [1, 4, 1, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "48",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        1,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "100", "lcd": "800" },
-      "solution": [1, 1, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "100",
+        "lcd": "800"
+      },
+      "solution": [
+        1,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "/" },
+          "params": {
+            "value": 4,
+            "operator": "/"
+          },
           "txt": "/4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "404", "lcd": "0" },
-      "solution": [1, 4, 4, 1, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "404",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        4,
+        1,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 10, "operator": "*" },
+          "params": {
+            "value": 10,
+            "operator": "*"
+          },
           "txt": "x10"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "100", "lcd": "10" },
-      "solution": [1, 7, 4, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "100",
+        "lcd": "10"
+      },
+      "solution": [
+        1,
+        7,
+        4,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "-" },
+          "params": {
+            "value": 5,
+            "operator": "-"
+          },
           "txt": "-5"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "4", "lcd": "0" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "4",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "x5"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "9", "lcd": "50" },
-      "solution": [1, 4, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "9",
+        "lcd": "50"
+      },
+      "solution": [
+        1,
+        4,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "/" },
+          "params": {
+            "value": 5,
+            "operator": "/"
+          },
           "txt": "/5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "100", "lcd": "99" },
-      "solution": [4, 5, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "100",
+        "lcd": "99"
+      },
+      "solution": [
+        4,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "-" },
+          "params": {
+            "value": 8,
+            "operator": "-"
+          },
           "txt": "-8"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 11, "operator": "*" },
+          "params": {
+            "value": 11,
+            "operator": "*"
+          },
           "txt": "x11"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "23", "lcd": "171" },
-      "solution": [4, 5, 1, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "23",
+        "lcd": "171"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "-" },
+          "params": {
+            "value": 9,
+            "operator": "-"
+          },
           "txt": "-9"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "24", "lcd": "0" },
-      "solution": [1, 4, 7, 1, 4, 5],
+      "screen": {
+        "moves": 6,
+        "goal": "24",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        7,
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "x5"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "2", "lcd": "0" },
-      "solution": [1, 4, 5, 4, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "2",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "*" },
+          "params": {
+            "value": 9,
+            "operator": "*"
+          },
           "txt": "x9"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 2, "goal": "11", "lcd": "0" },
-      "solution": [1, 1],
+      "screen": {
+        "moves": 2,
+        "goal": "11",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "101", "lcd": "0" },
-      "solution": [1, 4, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "101",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 0 },
+          "params": {
+            "value": 0
+          },
           "txt": "0"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "44", "lcd": "0" },
-      "solution": [1, 1, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "44",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         }
       }
     },
     {
-      "screen": { "moves": 2, "goal": "35", "lcd": "0" },
-      "solution": [1, 4],
+      "screen": {
+        "moves": 2,
+        "goal": "35",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 5 },
+          "params": {
+            "value": 5
+          },
           "txt": "5"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "56", "lcd": "0" },
-      "solution": [4, 1, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "56",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "9", "lcd": "0" },
-      "solution": [1, 7, 4, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "9",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        7,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "2_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "10", "lcd": "15" },
-      "solution": [7, 4, 1, 7],
+      "screen": {
+        "moves": 4,
+        "goal": "10",
+        "lcd": "15"
+      },
+      "solution": [
+        7,
+        4,
+        1,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 0 },
+          "params": {
+            "value": 0
+          },
           "txt": "0"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "/" },
+          "params": {
+            "value": 5,
+            "operator": "/"
+          },
           "txt": "/5"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "210", "lcd": "0" },
-      "solution": [5, 7, 1, 7, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "210",
+        "lcd": "0"
+      },
+      "solution": [
+        5,
+        7,
+        1,
+        7,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "-" },
+          "params": {
+            "value": 5,
+            "operator": "-"
+          },
           "txt": "-5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_2": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "2_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 5 },
+          "params": {
+            "value": 5
+          },
           "txt": "5"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "2020", "lcd": "4" },
-      "solution": [1, 1, 4, 1, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "2020",
+        "lcd": "4"
+      },
+      "solution": [
+        1,
+        1,
+        4,
+        1,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 0 },
+          "params": {
+            "value": 0
+          },
           "txt": "0"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "11", "lcd": "0" },
-      "solution": [1, 5, 1, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "11",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        5,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 12 },
+          "params": {
+            "value": 12
+          },
           "txt": "12"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "102", "lcd": "0" },
-      "solution": [1, 1, 5, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "102",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 10 },
+          "params": {
+            "value": 10
+          },
           "txt": "10"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         },
-        "1_2": { "color": "lightorange", "type": "deletenumber", "txt": "<<" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "deletenumber",
+          "txt": "<<"
+        }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "222", "lcd": "0" },
-      "solution": [1, 1, 1, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "222",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 2 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 2
+          },
           "txt": "1=>2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "93", "lcd": "0" },
-      "solution": [1, 5, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "93",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        5,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "+" },
+          "params": {
+            "value": 6,
+            "operator": "+"
+          },
           "txt": "+6"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "*" },
+          "params": {
+            "value": 7,
+            "operator": "*"
+          },
           "txt": "x7"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 6, "numberchange": 9 },
+          "params": {
+            "numbersearch": 6,
+            "numberchange": 9
+          },
           "txt": "6=>9"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "2321", "lcd": "0" },
-      "solution": [1, 4, 8, 5, 4, 1],
+      "screen": {
+        "moves": 6,
+        "goal": "2321",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        8,
+        5,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 2 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 2
+          },
           "txt": "1=>2"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 2, "numberchange": 3 },
+          "params": {
+            "numbersearch": 2,
+            "numberchange": 3
+          },
           "txt": "2=>3"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "24", "lcd": "0" },
-      "solution": [1, 4, 5, 4, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "24",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 8, "numberchange": 4 },
+          "params": {
+            "numbersearch": 8,
+            "numberchange": 4
+          },
           "txt": "8=>4"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "29", "lcd": "11" },
-      "solution": [4, 5, 1, 8, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "29",
+        "lcd": "11"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        8,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 2 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 2
+          },
           "txt": "1=>2"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 2, "numberchange": 9 },
+          "params": {
+            "numbersearch": 2,
+            "numberchange": 9
+          },
           "txt": "2=>9"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "20", "lcd": "36" },
-      "solution": [4, 4, 1, 1, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "20",
+        "lcd": "36"
+      },
+      "solution": [
+        4,
+        4,
+        1,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 2 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 2
+          },
           "txt": "1=>2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "15", "lcd": "2" },
-      "solution": [4, 1, 7, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "15",
+        "lcd": "2"
+      },
+      "solution": [
+        4,
+        1,
+        7,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 4, "numberchange": 5 },
+          "params": {
+            "numbersearch": 4,
+            "numberchange": 5
+          },
           "txt": "4=>5"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "414", "lcd": "1234" },
-      "solution": [5, 4, 8, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "414",
+        "lcd": "1234"
+      },
+      "solution": [
+        5,
+        4,
+        8,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 23, "numberchange": 41 },
+          "params": {
+            "numbersearch": 23,
+            "numberchange": 41
+          },
           "txt": "23=>41"
         },
         "1_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 24, "numberchange": 14 },
+          "params": {
+            "numbersearch": 24,
+            "numberchange": 14
+          },
           "txt": "24=>14"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 12, "numberchange": 24 },
+          "params": {
+            "numbersearch": 12,
+            "numberchange": 24
+          },
           "txt": "12=>24"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 14, "numberchange": 2 },
+          "params": {
+            "numbersearch": 14,
+            "numberchange": 2
+          },
           "txt": "14=>2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "-85", "lcd": "0" },
-      "solution": [7, 7, 1, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "-85",
+        "lcd": "0"
+      },
+      "solution": [
+        7,
+        7,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "+" },
+          "params": {
+            "value": 6,
+            "operator": "+"
+          },
           "txt": "+6"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 5 },
+          "params": {
+            "value": 5
+          },
           "txt": "5"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "-" },
+          "params": {
+            "value": 7,
+            "operator": "-"
+          },
           "txt": "-7"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "9", "lcd": "0" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "9",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "-" },
+          "params": {
+            "value": 1,
+            "operator": "-"
+          },
           "txt": "-1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "-" },
+          "params": {
+            "value": 2,
+            "operator": "-"
+          },
           "txt": "-2"
         },
         "1_2": {
           "color": "lightorange",
-          "params": { "exponent": 2 },
+          "params": {
+            "exponent": 2
+          },
           "type": "pownumber",
           "txt": "x^2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "-120", "lcd": "0" },
-      "solution": [7, 4, 7, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "-120",
+        "lcd": "0"
+      },
+      "solution": [
+        7,
+        4,
+        7,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "X5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "-" },
+          "params": {
+            "value": 6,
+            "operator": "-"
+          },
           "txt": "-6"
         },
         "2_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 4 },
+          "params": {
+            "value": 4
+          },
           "txt": "4"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "144", "lcd": "0" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "144",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "-" },
+          "params": {
+            "value": 1,
+            "operator": "-"
+          },
           "txt": "-1"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_2": {
           "color": "lightorange",
-          "params": { "exponent": 2 },
+          "params": {
+            "exponent": 2
+          },
           "type": "pownumber",
           "txt": "x^2"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "-6", "lcd": "0" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "-6",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "-13", "lcd": "0" },
-      "solution": [1, 1, 5, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "-13",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "-" },
+          "params": {
+            "value": 7,
+            "operator": "-"
+          },
           "txt": "-7"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "60", "lcd": "0" },
-      "solution": [4, 5, 1, 7],
+      "screen": {
+        "moves": 4,
+        "goal": "60",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 10, "operator": "-" },
+          "params": {
+            "value": 10,
+            "operator": "-"
+          },
           "txt": "-10"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "52", "lcd": "44" },
-      "solution": [4, 5, 1, 7, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "52",
+        "lcd": "44"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        7,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "10", "lcd": "9" },
-      "solution": [5, 1, 1, 4, 1],
+      "screen": {
+        "moves": 5,
+        "goal": "10",
+        "lcd": "9"
+      },
+      "solution": [
+        5,
+        1,
+        1,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "x5"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "12", "lcd": "14" },
-      "solution": [5, 4, 1, 7, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "12",
+        "lcd": "14"
+      },
+      "solution": [
+        5,
+        4,
+        1,
+        7,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 6 },
+          "params": {
+            "value": 6
+          },
           "txt": "6"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "/" },
+          "params": {
+            "value": 8,
+            "operator": "/"
+          },
           "txt": "/8"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "13", "lcd": "55" },
-      "solution": [5, 8, 1, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "13",
+        "lcd": "55"
+      },
+      "solution": [
+        5,
+        8,
+        1,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_2": {
           "color": "lightorange",
           "type": "deletenumber",
@@ -1022,72 +1831,137 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "245", "lcd": "0" },
-      "solution": [1, 1, 7, 5, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "245",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        7,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "-" },
+          "params": {
+            "value": 3,
+            "operator": "-"
+          },
           "txt": "-3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 5 },
+          "params": {
+            "value": 5
+          },
           "txt": "5"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "12", "lcd": "39" },
-      "solution": [4, 5, 7, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "12",
+        "lcd": "39"
+      },
+      "solution": [
+        4,
+        5,
+        7,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": -3, "operator": "*" },
+          "params": {
+            "value": -3,
+            "operator": "*"
+          },
           "txt": "x-3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "126", "lcd": "111" },
-      "solution": [1, 8, 5, 4, 5, 1],
+      "screen": {
+        "moves": 6,
+        "goal": "126",
+        "lcd": "111"
+      },
+      "solution": [
+        1,
+        8,
+        5,
+        4,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "-" },
+          "params": {
+            "value": 9,
+            "operator": "-"
+          },
           "txt": "-9"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_2": {
           "color": "lightorange",
           "type": "deletenumber",
@@ -1096,75 +1970,138 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "3", "lcd": "34" },
-      "solution": [1, 5, 4, 5, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "3",
+        "lcd": "34"
+      },
+      "solution": [
+        1,
+        5,
+        4,
+        5,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "-" },
+          "params": {
+            "value": 5,
+            "operator": "-"
+          },
           "txt": "-5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "/" },
+          "params": {
+            "value": 7,
+            "operator": "/"
+          },
           "txt": "/7"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" }
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "4", "lcd": "25" },
-      "solution": [4, 5, 1, 8, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "4",
+        "lcd": "25"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        8,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "-" },
+          "params": {
+            "value": 4,
+            "operator": "-"
+          },
           "txt": "-4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": -4, "operator": "*" },
+          "params": {
+            "value": -4,
+            "operator": "*"
+          },
           "txt": "x-4"
         },
-        "1_2": { "color": "lightorange", "type": "changesymbol", "txt": "+/-" },
+        "1_2": {
+          "color": "lightorange",
+          "type": "changesymbol",
+          "txt": "+/-"
+        },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "2_2": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "/" },
+          "params": {
+            "value": 8,
+            "operator": "/"
+          },
           "txt": "/8"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "51", "lcd": "0" },
-      "solution": [4, 1, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "51",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "+" },
+          "params": {
+            "value": 6,
+            "operator": "+"
+          },
           "txt": "+6"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_2": {
@@ -1175,19 +2112,32 @@
       }
     },
     {
-      "screen": { "moves": 3, "goal": "101", "lcd": "100" },
-      "solution": [5, 4, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "101",
+        "lcd": "100"
+      },
+      "solution": [
+        5,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_2": {
@@ -1198,13 +2148,25 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "100", "lcd": "1101" },
-      "solution": [5, 1, 5, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "100",
+        "lcd": "1101"
+      },
+      "solution": [
+        5,
+        1,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "-" },
+          "params": {
+            "value": 1,
+            "operator": "-"
+          },
           "txt": "-1"
         },
         "1_2": {
@@ -1215,19 +2177,34 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "58", "lcd": "0" },
-      "solution": [1, 4, 5, 7],
+      "screen": {
+        "moves": 4,
+        "goal": "58",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_2": {
@@ -1238,25 +2215,41 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "-" },
+          "params": {
+            "value": 3,
+            "operator": "-"
+          },
           "txt": "-3"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "4", "lcd": "6" },
-      "solution": [1, 5, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "4",
+        "lcd": "6"
+      },
+      "solution": [
+        1,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "/" },
+          "params": {
+            "value": 4,
+            "operator": "/"
+          },
           "txt": "/4"
         },
         "1_2": {
@@ -1267,19 +2260,33 @@
       }
     },
     {
-      "screen": { "moves": 3, "goal": "21", "lcd": "15" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "21",
+        "lcd": "15"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "x5"
         },
         "1_2": {
@@ -1290,13 +2297,26 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "13", "lcd": "100" },
-      "solution": [1, 1, 5, 1, 1],
+      "screen": {
+        "moves": 5,
+        "goal": "13",
+        "lcd": "100"
+      },
+      "solution": [
+        1,
+        1,
+        5,
+        1,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
         "1_2": {
@@ -1307,13 +2327,24 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "11011", "lcd": "10" },
-      "solution": [1, 1, 5, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "11011",
+        "lcd": "10"
+      },
+      "solution": [
+        1,
+        1,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_2": {
@@ -1324,19 +2355,33 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "102", "lcd": "0" },
-      "solution": [7, 4, 1, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "102",
+        "lcd": "0"
+      },
+      "solution": [
+        7,
+        4,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 10 },
+          "params": {
+            "value": 10
+          },
           "txt": "10"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_2": {
@@ -1347,25 +2392,42 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "7", "lcd": "0" },
-      "solution": [4, 1, 5, 7],
+      "screen": {
+        "moves": 4,
+        "goal": "7",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        1,
+        5,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         },
         "1_2": {
@@ -1376,25 +2438,42 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "4", "lcd": "0" },
-      "solution": [1, 4, 5, 7],
+      "screen": {
+        "moves": 4,
+        "goal": "4",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 5 },
+          "params": {
+            "value": 5
+          },
           "txt": "5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_2": {
@@ -1405,25 +2484,41 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "212", "lcd": "121" },
-      "solution": [4, 5, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "212",
+        "lcd": "121"
+      },
+      "solution": [
+        4,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "-" },
+          "params": {
+            "value": 1,
+            "operator": "-"
+          },
           "txt": "-1"
         },
         "1_2": {
@@ -1434,19 +2529,34 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "9", "lcd": "8" },
-      "solution": [4, 5, 1, 5, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "9",
+        "lcd": "8"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        5,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_2": {
@@ -1457,25 +2567,44 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "/" },
+          "params": {
+            "value": 5,
+            "operator": "/"
+          },
           "txt": "/5"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "13", "lcd": "0" },
-      "solution": [1, 4, 7, 1, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "13",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        7,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "+" },
+          "params": {
+            "value": 7,
+            "operator": "+"
+          },
           "txt": "+7"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "1_2": {
@@ -1486,25 +2615,44 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "123", "lcd": "0" },
-      "solution": [1, 4, 1, 7, 4, 5],
+      "screen": {
+        "moves": 6,
+        "goal": "123",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        1,
+        7,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_2": {
@@ -1515,25 +2663,43 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "-" },
+          "params": {
+            "value": 2,
+            "operator": "-"
+          },
           "txt": "-2"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "424", "lcd": "0" },
-      "solution": [1, 4, 5, 1, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "424",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 6 },
+          "params": {
+            "value": 6
+          },
           "txt": "6"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "1_2": {
@@ -1544,19 +2710,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "81", "lcd": "7" },
-      "solution": [4, 1, 4, 1, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "81",
+        "lcd": "7"
+      },
+      "solution": [
+        4,
+        1,
+        4,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "-" },
+          "params": {
+            "value": 9,
+            "operator": "-"
+          },
           "txt": "-9"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_2": {
@@ -1567,7 +2749,10 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "2_2": {
@@ -1578,19 +2763,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "-43", "lcd": "0" },
-      "solution": [1, 7, 5, 4, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "-43",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        7,
+        5,
+        4,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "-" },
+          "params": {
+            "value": 5,
+            "operator": "-"
+          },
           "txt": "-5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "+" },
+          "params": {
+            "value": 7,
+            "operator": "+"
+          },
           "txt": "+7"
         },
         "1_2": {
@@ -1601,25 +2802,46 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "-" },
+          "params": {
+            "value": 9,
+            "operator": "-"
+          },
           "txt": "-9"
         }
       }
     },
     {
-      "screen": { "moves": 7, "goal": "28", "lcd": "0" },
-      "solution": [1, 1, 8, 1, 1, 5, 4],
+      "screen": {
+        "moves": 7,
+        "goal": "28",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        8,
+        1,
+        1,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "+" },
+          "params": {
+            "value": 6,
+            "operator": "+"
+          },
           "txt": "+6"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "-" },
+          "params": {
+            "value": 3,
+            "operator": "-"
+          },
           "txt": "-3"
         },
         "1_2": {
@@ -1635,19 +2857,34 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "136", "lcd": "0" },
-      "solution": [4, 1, 7, 1, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "136",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        1,
+        7,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_2": {
@@ -1658,19 +2895,34 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "-1", "lcd": "0" },
-      "solution": [1, 1, 5, 8],
+      "screen": {
+        "moves": 4,
+        "goal": "-1",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        5,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_2": {
@@ -1686,19 +2938,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "-25", "lcd": "0" },
-      "solution": [1, 4, 5, 1, 8],
+      "screen": {
+        "moves": 5,
+        "goal": "-25",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        1,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_2": {
@@ -1714,19 +2982,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "-5", "lcd": "0" },
-      "solution": [1, 4, 5, 8, 1],
+      "screen": {
+        "moves": 5,
+        "goal": "-5",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        8,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 7, "operator": "+" },
+          "params": {
+            "value": 7,
+            "operator": "+"
+          },
           "txt": "+7"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_2": {
@@ -1742,19 +3026,34 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "41", "lcd": "88" },
-      "solution": [1, 4, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "41",
+        "lcd": "88"
+      },
+      "solution": [
+        1,
+        4,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "/" },
+          "params": {
+            "value": 4,
+            "operator": "/"
+          },
           "txt": "/4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "-" },
+          "params": {
+            "value": 4,
+            "operator": "-"
+          },
           "txt": "-4"
         },
         "1_2": {
@@ -1765,19 +3064,34 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "101", "lcd": "100" },
-      "solution": [5, 4, 1, 8, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "101",
+        "lcd": "100"
+      },
+      "solution": [
+        5,
+        4,
+        1,
+        8,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 0 },
+          "params": {
+            "value": 0
+          },
           "txt": "0"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_2": {
@@ -1788,37 +3102,63 @@
         "2_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 2, "numberchange": 10 },
+          "params": {
+            "numbersearch": 2,
+            "numberchange": 10
+          },
           "txt": "2=>10"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 0, "numberchange": 1 },
+          "params": {
+            "numbersearch": 0,
+            "numberchange": 1
+          },
           "txt": "0=>1"
         }
       }
     },
     {
-      "screen": { "moves": 7, "goal": "424", "lcd": "0" },
-      "solution": [4, 5, 1, 4, 8, 4, 5],
+      "screen": {
+        "moves": 7,
+        "goal": "424",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        4,
+        8,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 5 },
+          "params": {
+            "value": 5
+          },
           "txt": "5"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 5, "numberchange": 4 },
+          "params": {
+            "numbersearch": 5,
+            "numberchange": 4
+          },
           "txt": "5=>4"
         },
         "2_2": {
@@ -1829,19 +3169,34 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "100", "lcd": "99" },
-      "solution": [4, 1, 5, 8, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "100",
+        "lcd": "99"
+      },
+      "solution": [
+        4,
+        1,
+        5,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 9 },
+          "params": {
+            "value": 9
+          },
           "txt": "9"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "/" },
+          "params": {
+            "value": 9,
+            "operator": "/"
+          },
           "txt": "/9"
         },
         "1_2": {
@@ -1852,31 +3207,52 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 0 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 0
+          },
           "txt": "1=>0"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "30", "lcd": "8" },
-      "solution": [4, 1, 5, 8, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "30",
+        "lcd": "8"
+      },
+      "solution": [
+        4,
+        1,
+        5,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "-" },
+          "params": {
+            "value": 4,
+            "operator": "-"
+          },
           "txt": "-4"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 2, "numberchange": 3 },
+          "params": {
+            "numbersearch": 2,
+            "numberchange": 3
+          },
           "txt": "2=>3"
         },
         "2_2": {
@@ -1887,13 +3263,26 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "222", "lcd": "101" },
-      "solution": [1, 8, 5, 1, 8],
+      "screen": {
+        "moves": 5,
+        "goal": "222",
+        "lcd": "101"
+      },
+      "solution": [
+        1,
+        8,
+        5,
+        1,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "-" },
+          "params": {
+            "value": 1,
+            "operator": "-"
+          },
           "txt": "-1"
         },
         "1_2": {
@@ -1904,31 +3293,53 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 0, "numberchange": 2 },
+          "params": {
+            "numbersearch": 0,
+            "numberchange": 2
+          },
           "txt": "0=>2"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "500", "lcd": "36" },
-      "solution": [4, 8, 5, 1, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "500",
+        "lcd": "36"
+      },
+      "solution": [
+        4,
+        8,
+        5,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 5 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 5
+          },
           "txt": "1=>5"
         },
         "2_2": {
@@ -1939,19 +3350,37 @@
       }
     },
     {
-      "screen": { "moves": 8, "goal": "196", "lcd": "0" },
-      "solution": [1, 4, 7, 5, 8, 5, 1, 5],
+      "screen": {
+        "moves": 8,
+        "goal": "196",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        7,
+        5,
+        8,
+        5,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 12, "operator": "+" },
+          "params": {
+            "value": 12,
+            "operator": "+"
+          },
           "txt": "+12"
         },
         "1_2": {
@@ -1962,7 +3391,10 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 13, "operator": "*" },
+          "params": {
+            "value": 13,
+            "operator": "*"
+          },
           "txt": "x13"
         },
         "2_2": {
@@ -1973,19 +3405,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "101", "lcd": "50" },
-      "solution": [4, 1, 4, 8, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "101",
+        "lcd": "50"
+      },
+      "solution": [
+        4,
+        1,
+        4,
+        8,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 10 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 10
+          },
           "txt": "1=>10"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 50, "operator": "+" },
+          "params": {
+            "value": 50,
+            "operator": "+"
+          },
           "txt": "+50"
         },
         "1_2": {
@@ -1996,25 +3444,44 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 5, "numberchange": 1 },
+          "params": {
+            "numbersearch": 5,
+            "numberchange": 1
+          },
           "txt": "5=>1"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "2048", "lcd": "1" },
-      "solution": [1, 4, 5, 7, 1, 5],
+      "screen": {
+        "moves": 6,
+        "goal": "2048",
+        "lcd": "1"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        7,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_2": {
@@ -2025,31 +3492,52 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 10, "operator": "*" },
+          "params": {
+            "value": 10,
+            "operator": "*"
+          },
           "txt": "x10"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "123", "lcd": "12" },
-      "solution": [1, 8, 5, 8, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "123",
+        "lcd": "12"
+      },
+      "solution": [
+        1,
+        8,
+        5,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 12 },
+          "params": {
+            "value": 12
+          },
           "txt": "12"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 12, "numberchange": 2 },
+          "params": {
+            "numbersearch": 12,
+            "numberchange": 2
+          },
           "txt": "12=>2"
         },
         "2_2": {
@@ -2060,19 +3548,36 @@
       }
     },
     {
-      "screen": { "moves": 6, "goal": "55", "lcd": "86" },
-      "solution": [5, 1, 1, 5, 4, 4],
+      "screen": {
+        "moves": 6,
+        "goal": "55",
+        "lcd": "86"
+      },
+      "solution": [
+        5,
+        1,
+        1,
+        5,
+        4,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 14, "operator": "+" },
+          "params": {
+            "value": 14,
+            "operator": "+"
+          },
           "txt": "+14"
         },
         "1_2": {
@@ -2083,19 +3588,33 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 0, "numberchange": 5 },
+          "params": {
+            "numbersearch": 0,
+            "numberchange": 5
+          },
           "txt": "0=>5"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "3", "lcd": "0" },
-      "solution": [1, 1, 1, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "3",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        1,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_2": {
@@ -2106,8 +3625,16 @@
       }
     },
     {
-      "screen": { "moves": 3, "goal": "4", "lcd": "1231" },
-      "solution": [8, 5, 1],
+      "screen": {
+        "moves": 3,
+        "goal": "4",
+        "lcd": "1231"
+      },
+      "solution": [
+        8,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
@@ -2117,43 +3644,70 @@
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 3, "numberchange": 1 },
+          "params": {
+            "numbersearch": 3,
+            "numberchange": 1
+          },
           "txt": "3=>1"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 2, "numberchange": 3 },
+          "params": {
+            "numbersearch": 2,
+            "numberchange": 3
+          },
           "txt": "2=>3"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "45", "lcd": "0" },
-      "solution": [4, 7, 8, 5, 1],
+      "screen": {
+        "moves": 5,
+        "goal": "45",
+        "lcd": "0"
+      },
+      "solution": [
+        4,
+        7,
+        8,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "*" },
+          "params": {
+            "value": 9,
+            "operator": "*"
+          },
           "txt": "x9"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 4 },
+          "params": {
+            "value": 4
+          },
           "txt": "4"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 3, "numberchange": 5 },
+          "params": {
+            "numbersearch": 3,
+            "numberchange": 5
+          },
           "txt": "3=>5"
         },
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "2_2": {
@@ -2164,19 +3718,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "28", "lcd": "424" },
-      "solution": [1, 1, 8, 8, 1],
+      "screen": {
+        "moves": 5,
+        "goal": "28",
+        "lcd": "424"
+      },
+      "solution": [
+        1,
+        1,
+        8,
+        8,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 4, "numberchange": 6 },
+          "params": {
+            "numbersearch": 4,
+            "numberchange": 6
+          },
           "txt": "4=>6"
         },
         "2_2": {
@@ -2187,19 +3757,33 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "8", "lcd": "3" },
-      "solution": [1, 8, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "8",
+        "lcd": "3"
+      },
+      "solution": [
+        1,
+        8,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 3 },
+          "params": {
+            "value": 3
+          },
           "txt": "3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 33, "operator": "+" },
+          "params": {
+            "value": 33,
+            "operator": "+"
+          },
           "txt": "+33"
         },
         "1_2": {
@@ -2210,31 +3794,51 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 3, "numberchange": 1 },
+          "params": {
+            "numbersearch": 3,
+            "numberchange": 1
+          },
           "txt": "3=>1"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "44", "lcd": "24" },
-      "solution": [1, 5, 8, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "44",
+        "lcd": "24"
+      },
+      "solution": [
+        1,
+        5,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 4 },
+          "params": {
+            "value": 4
+          },
           "txt": "4"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 1, "numberchange": 2 },
+          "params": {
+            "numbersearch": 1,
+            "numberchange": 2
+          },
           "txt": "1=>2"
         },
         "2_2": {
@@ -2245,25 +3849,43 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "143", "lcd": "142" },
-      "solution": [8, 4, 1, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "143",
+        "lcd": "142"
+      },
+      "solution": [
+        8,
+        4,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "*" },
+          "params": {
+            "value": 9,
+            "operator": "*"
+          },
           "txt": "x9"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 44, "numberchange": 43 },
+          "params": {
+            "numbersearch": 44,
+            "numberchange": 43
+          },
           "txt": "44=>43"
         },
         "2_2": {
@@ -2274,25 +3896,44 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "1", "lcd": "24" },
-      "solution": [4, 8, 1, 5, 8],
+      "screen": {
+        "moves": 5,
+        "goal": "1",
+        "lcd": "24"
+      },
+      "solution": [
+        4,
+        8,
+        1,
+        5,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 5, "numberchange": 10 },
+          "params": {
+            "numbersearch": 5,
+            "numberchange": 10
+          },
           "txt": "5=>10"
         },
         "2_2": {
@@ -2303,19 +3944,34 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "100", "lcd": "4" },
-      "solution": [4, 5, 1, 4, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "100",
+        "lcd": "4"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        4,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 3 },
+          "params": {
+            "value": 3
+          },
           "txt": "3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_2": {
@@ -2326,25 +3982,44 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "8", "lcd": "93" },
-      "solution": [4, 5, 1, 1, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "8",
+        "lcd": "93"
+      },
+      "solution": [
+        4,
+        5,
+        1,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "+" },
+          "params": {
+            "value": 4,
+            "operator": "+"
+          },
           "txt": "+4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_2": {
@@ -2355,19 +4030,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "16", "lcd": "5" },
-      "solution": [1, 5, 1, 8, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "16",
+        "lcd": "5"
+      },
+      "solution": [
+        1,
+        5,
+        1,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "x5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
         "1_2": {
@@ -2378,25 +4069,43 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 5, "numberchange": 2 },
+          "params": {
+            "numbersearch": 5,
+            "numberchange": 2
+          },
           "txt": "5=>2"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "64", "lcd": "128" },
-      "solution": [4, 5, 8, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "64",
+        "lcd": "128"
+      },
+      "solution": [
+        4,
+        5,
+        8,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "/" },
+          "params": {
+            "value": 4,
+            "operator": "/"
+          },
           "txt": "/4"
         },
         "1_2": {
@@ -2407,31 +4116,52 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 5, "numberchange": 16 },
+          "params": {
+            "numbersearch": 5,
+            "numberchange": 16
+          },
           "txt": "5=>16"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "121", "lcd": "59" },
-      "solution": [8, 1, 4, 8, 1],
+      "screen": {
+        "moves": 6,
+        "goal": "121",
+        "lcd": "59"
+      },
+      "solution": [
+        8,
+        1,
+        4,
+        8,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "*" },
+          "params": {
+            "value": 5,
+            "operator": "*"
+          },
           "txt": "x5"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 15, "numberchange": 51 },
+          "params": {
+            "numbersearch": 15,
+            "numberchange": 51
+          },
           "txt": "15=>51"
         },
         "2_2": {
@@ -2442,25 +4172,45 @@
       }
     },
     {
-      "screen": { "moves": 6, "goal": "5", "lcd": "18" },
-      "solution": [1, 4, 5, 1, 4, 8],
+      "screen": {
+        "moves": 6,
+        "goal": "5",
+        "lcd": "18"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        1,
+        4,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 12, "numberchange": 21 },
+          "params": {
+            "numbersearch": 12,
+            "numberchange": 21
+          },
           "txt": "12=>21"
         },
         "2_2": {
@@ -2471,19 +4221,34 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "30", "lcd": "9" },
-      "solution": [5, 1, 8, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "30",
+        "lcd": "9"
+      },
+      "solution": [
+        5,
+        1,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "-" },
+          "params": {
+            "value": 5,
+            "operator": "-"
+          },
           "txt": "-5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": -6, "operator": "*" },
+          "params": {
+            "value": -6,
+            "operator": "*"
+          },
           "txt": "x-6"
         },
         "1_2": {
@@ -2499,19 +4264,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "-17", "lcd": "105" },
-      "solution": [4, 8, 7, 5, 1],
+      "screen": {
+        "moves": 5,
+        "goal": "-17",
+        "lcd": "105"
+      },
+      "solution": [
+        4,
+        8,
+        7,
+        5,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "-" },
+          "params": {
+            "value": 5,
+            "operator": "-"
+          },
           "txt": "-5"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "/" },
+          "params": {
+            "value": 5,
+            "operator": "/"
+          },
           "txt": "/5"
         },
         "1_2": {
@@ -2522,7 +4303,10 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "*" },
+          "params": {
+            "value": 4,
+            "operator": "*"
+          },
           "txt": "x4"
         },
         "2_2": {
@@ -2533,19 +4317,36 @@
       }
     },
     {
-      "screen": { "moves": 6, "goal": "11", "lcd": "36" },
-      "solution": [8, 5, 1, 4, 1, 5],
+      "screen": {
+        "moves": 6,
+        "goal": "11",
+        "lcd": "36"
+      },
+      "solution": [
+        8,
+        5,
+        1,
+        4,
+        1,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "-" },
+          "params": {
+            "value": 6,
+            "operator": "-"
+          },
           "txt": "-6"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_2": {
@@ -2561,13 +4362,26 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "64", "lcd": "3" },
-      "solution": [5, 1, 8, 4, 5],
+      "screen": {
+        "moves": 5,
+        "goal": "64",
+        "lcd": "3"
+      },
+      "solution": [
+        5,
+        1,
+        8,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "+" },
+          "params": {
+            "value": 3,
+            "operator": "+"
+          },
           "txt": "+3"
         },
         "1_1": {
@@ -2577,37 +4391,59 @@
         },
         "1_2": {
           "color": "lightorange",
-          "params": { "exponent": 3 },
+          "params": {
+            "exponent": 3
+          },
           "type": "pownumber",
           "txt": "x^3"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 0, "numberchange": 1 },
+          "params": {
+            "numbersearch": 0,
+            "numberchange": 1
+          },
           "txt": "0=>1"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "11", "lcd": "2" },
-      "solution": [1, 4, 1, 4, 7],
+      "screen": {
+        "moves": 5,
+        "goal": "11",
+        "lcd": "2"
+      },
+      "solution": [
+        1,
+        4,
+        1,
+        4,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 10 },
+          "params": {
+            "value": 10
+          },
           "txt": "10"
         },
         "1_2": {
           "color": "lightorange",
-          "params": { "exponent": 3 },
+          "params": {
+            "exponent": 3
+          },
           "type": "pownumber",
           "txt": "x^3"
         },
@@ -2619,127 +4455,211 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 10, "numberchange": 1 },
+          "params": {
+            "numbersearch": 10,
+            "numberchange": 1
+          },
           "txt": "10=>1"
         }
       }
     },
     {
-      "screen": { "moves": 2, "goal": "2311", "lcd": "1123" },
-      "solution": [5, 5],
+      "screen": {
+        "moves": 2,
+        "goal": "2311",
+        "lcd": "1123"
+      },
+      "solution": [
+        5,
+        5
+      ],
       "buttons": {
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "left-right" },
+          "params": {
+            "direction": "left-right"
+          },
           "txt": "< Shift"
         }
       }
     },
     {
-      "screen": { "moves": 2, "goal": "3254", "lcd": "5432" },
-      "solution": [5, 5],
+      "screen": {
+        "moves": 2,
+        "goal": "3254",
+        "lcd": "5432"
+      },
+      "solution": [
+        5,
+        5
+      ],
       "buttons": {
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "121", "lcd": "101" },
-      "solution": [5, 1, 8],
+      "screen": {
+        "moves": 3,
+        "goal": "121",
+        "lcd": "101"
+      },
+      "solution": [
+        5,
+        1,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         },
         "2_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "left-right" },
+          "params": {
+            "direction": "left-right"
+          },
           "txt": "< Shift"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "1999", "lcd": "98" },
-      "solution": [1, 8, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "1999",
+        "lcd": "98"
+      },
+      "solution": [
+        1,
+        8,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 9 },
+          "params": {
+            "value": 9
+          },
           "txt": "9"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 89, "numberchange": 99 },
+          "params": {
+            "numbersearch": 89,
+            "numberchange": 99
+          },
           "txt": "89=>99"
         },
         "2_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "129", "lcd": "7" },
-      "solution": [1, 5, 4],
+      "screen": {
+        "moves": 3,
+        "goal": "129",
+        "lcd": "7"
+      },
+      "solution": [
+        1,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 9 },
+          "params": {
+            "value": 9
+          },
           "txt": "9"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         }
       }
     },
     {
-      "screen": { "moves": 5, "goal": "210", "lcd": "120" },
-      "solution": [1, 5, 8, 1, 8],
+      "screen": {
+        "moves": 5,
+        "goal": "210",
+        "lcd": "120"
+      },
+      "solution": [
+        1,
+        5,
+        8,
+        1,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 1, "operator": "+" },
+          "params": {
+            "value": 1,
+            "operator": "+"
+          },
           "txt": "+1"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "left-right" },
+          "params": {
+            "direction": "left-right"
+          },
           "txt": "< Shift"
         },
         "2_2": {
@@ -2750,67 +4670,115 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "210", "lcd": "1001" },
-      "solution": [5, 1, 5, 1, 8],
+      "screen": {
+        "moves": 5,
+        "goal": "210",
+        "lcd": "1001"
+      },
+      "solution": [
+        5,
+        1,
+        5,
+        1,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 12, "numberchange": 0 },
+          "params": {
+            "numbersearch": 12,
+            "numberchange": 0
+          },
           "txt": "12=>0"
         }
       }
     },
     {
-      "screen": { "moves": 3, "goal": "501", "lcd": "100" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "501",
+        "lcd": "100"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 0 },
+          "params": {
+            "value": 0
+          },
           "txt": "0"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "left-right" },
+          "params": {
+            "direction": "left-right"
+          },
           "txt": "< Shift"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "3", "lcd": "212" },
-      "solution": [8, 1, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "3",
+        "lcd": "212"
+      },
+      "solution": [
+        8,
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 11, "operator": "+" },
+          "params": {
+            "value": 11,
+            "operator": "+"
+          },
           "txt": "+11"
         },
         "1_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 3, "numberchange": 1 },
+          "params": {
+            "numbersearch": 3,
+            "numberchange": 1
+          },
           "txt": "3=>1"
         },
         "1_2": {
@@ -2821,61 +4789,102 @@
         "2_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "left-right" },
+          "params": {
+            "direction": "left-right"
+          },
           "txt": "< Shift"
         }
       }
     },
     {
-      "screen": { "moves": 4, "goal": "121", "lcd": "356" },
-      "solution": [5, 1, 4, 5],
+      "screen": {
+        "moves": 4,
+        "goal": "121",
+        "lcd": "356"
+      },
+      "solution": [
+        5,
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "-" },
+          "params": {
+            "value": 2,
+            "operator": "-"
+          },
           "txt": "-2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "13", "lcd": "2152" },
-      "solution": [8, 1, 8, 7, 1, 4],
+      "screen": {
+        "moves": 6,
+        "goal": "13",
+        "lcd": "2152"
+      },
+      "solution": [
+        8,
+        1,
+        8,
+        7,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 25, "numberchange": 12 },
+          "params": {
+            "numbersearch": 25,
+            "numberchange": 12
+          },
           "txt": "25=>12"
         },
         "1_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 21, "numberchange": 3 },
+          "params": {
+            "numbersearch": 21,
+            "numberchange": 3
+          },
           "txt": "21=>3"
         },
         "1_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         },
         "2_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 12, "numberchange": 5 },
+          "params": {
+            "numbersearch": 12,
+            "numberchange": 5
+          },
           "txt": "12=>5"
         },
         "2_2": {
@@ -2886,38 +4895,65 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "520", "lcd": "1025" },
-      "solution": [1, 1, 5, 8, 4],
+      "screen": {
+        "moves": 5,
+        "goal": "520",
+        "lcd": "1025"
+      },
+      "solution": [
+        1,
+        1,
+        5,
+        8,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         },
         "1_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 50, "numberchange": 0 },
+          "params": {
+            "numbersearch": 50,
+            "numberchange": 0
+          },
           "txt": "50=>0"
         },
         "1_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 25, "numberchange": 525 },
+          "params": {
+            "numbersearch": 25,
+            "numberchange": 525
+          },
           "txt": "25=>525"
         },
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 51, "numberchange": 5 },
+          "params": {
+            "numbersearch": 51,
+            "numberchange": 5
+          },
           "txt": "51=>5"
         }
       }
     },
     {
-      "screen": { "moves": 1, "goal": "2332", "lcd": "23" },
-      "solution": [5],
+      "screen": {
+        "moves": 1,
+        "goal": "2332",
+        "lcd": "23"
+      },
+      "solution": [
+        5
+      ],
       "buttons": {
         "1_2": {
           "color": "lightorange",
@@ -2927,19 +4963,31 @@
       }
     },
     {
-      "screen": { "moves": 3, "goal": "1221", "lcd": "0" },
-      "solution": [1, 4, 5],
+      "screen": {
+        "moves": 3,
+        "goal": "1221",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5
+      ],
       "buttons": {
         "0_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 1 },
+          "params": {
+            "value": 1
+          },
           "txt": "1"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 2 },
+          "params": {
+            "value": 2
+          },
           "txt": "2"
         },
         "1_2": {
@@ -2950,13 +4998,27 @@
       }
     },
     {
-      "screen": { "moves": 6, "goal": "19", "lcd": "91" },
-      "solution": [5, 8, 1, 5, 8, 1],
+      "screen": {
+        "moves": 6,
+        "goal": "19",
+        "lcd": "91"
+      },
+      "solution": [
+        5,
+        8,
+        1,
+        5,
+        8,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 5, "operator": "+" },
+          "params": {
+            "value": 5,
+            "operator": "+"
+          },
           "txt": "+5"
         },
         "1_2": {
@@ -2972,19 +5034,33 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "116", "lcd": "22" },
-      "solution": [8, 1, 5, 4],
+      "screen": {
+        "moves": 4,
+        "goal": "116",
+        "lcd": "22"
+      },
+      "solution": [
+        8,
+        1,
+        5,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "-" },
+          "params": {
+            "value": 3,
+            "operator": "-"
+          },
           "txt": "-3"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 6 },
+          "params": {
+            "value": 6
+          },
           "txt": "6"
         },
         "1_2": {
@@ -3000,19 +5076,36 @@
       }
     },
     {
-      "screen": { "moves": 7, "goal": "20", "lcd": "125" },
-      "solution": [5, 8, 1, 5, 8, 1, 4],
+      "screen": {
+        "moves": 7,
+        "goal": "20",
+        "lcd": "125"
+      },
+      "solution": [
+        5,
+        8,
+        1,
+        5,
+        8,
+        1,
+        4
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 6, "numberchange": 2 },
+          "params": {
+            "numbersearch": 6,
+            "numberchange": 2
+          },
           "txt": "6=>2"
         },
         "1_1": {
           "color": "lightpurple",
           "type": "concatenate",
-          "params": { "value": 0 },
+          "params": {
+            "value": 0
+          },
           "txt": "0"
         },
         "1_2": {
@@ -3028,8 +5121,17 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "3", "lcd": "22" },
-      "solution": [5, 8, 4, 1],
+      "screen": {
+        "moves": 4,
+        "goal": "3",
+        "lcd": "22"
+      },
+      "solution": [
+        5,
+        8,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
@@ -3039,7 +5141,10 @@
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "/" },
+          "params": {
+            "value": 2,
+            "operator": "/"
+          },
           "txt": "/2"
         },
         "1_2": {
@@ -3055,19 +5160,35 @@
       }
     },
     {
-      "screen": { "moves": 5, "goal": "1111", "lcd": "0" },
-      "solution": [1, 4, 5, 8, 8],
+      "screen": {
+        "moves": 5,
+        "goal": "1111",
+        "lcd": "0"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        8,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 6, "operator": "*" },
+          "params": {
+            "value": 6,
+            "operator": "*"
+          },
           "txt": "x6"
         },
         "1_2": {
@@ -3078,25 +5199,47 @@
         "2_2": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 21, "numberchange": 11 },
+          "params": {
+            "numbersearch": 21,
+            "numberchange": 11
+          },
           "txt": "21=>11"
         }
       }
     },
     {
-      "screen": { "moves": 8, "goal": "2020", "lcd": "-1" },
-      "solution": [4, 1, 5, 4, 8, 4, 4, 7],
+      "screen": {
+        "moves": 8,
+        "goal": "2020",
+        "lcd": "-1"
+      },
+      "solution": [
+        4,
+        1,
+        5,
+        4,
+        8,
+        4,
+        4,
+        7
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 8, "operator": "+" },
+          "params": {
+            "value": 8,
+            "operator": "+"
+          },
           "txt": "+8"
         },
         "1_2": {
@@ -3107,7 +5250,10 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "+" },
+          "params": {
+            "value": 2,
+            "operator": "+"
+          },
           "txt": "+2"
         },
         "2_2": {
@@ -3118,19 +5264,36 @@
       }
     },
     {
-      "screen": { "moves": 6, "goal": "112", "lcd": "13" },
-      "solution": [7, 5, 1, 4, 8, 8],
+      "screen": {
+        "moves": 6,
+        "goal": "112",
+        "lcd": "13"
+      },
+      "solution": [
+        7,
+        5,
+        1,
+        4,
+        8,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "lightorange",
           "type": "changenumber",
-          "params": { "numbersearch": 99, "numberchange": 60 },
+          "params": {
+            "numbersearch": 99,
+            "numberchange": 60
+          },
           "txt": "99=>60"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "/" },
+          "params": {
+            "value": 3,
+            "operator": "/"
+          },
           "txt": "/3"
         },
         "1_2": {
@@ -3141,31 +5304,53 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "*" },
+          "params": {
+            "value": 3,
+            "operator": "*"
+          },
           "txt": "x3"
         },
         "2_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "right-left" },
+          "params": {
+            "direction": "right-left"
+          },
           "txt": "Shift >"
         }
       }
     },
     {
-      "screen": { "moves": 6, "goal": "18", "lcd": "140" },
-      "solution": [8, 5, 8, 7, 4, 1],
+      "screen": {
+        "moves": 6,
+        "goal": "18",
+        "lcd": "140"
+      },
+      "solution": [
+        8,
+        5,
+        8,
+        7,
+        4,
+        1
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 3, "operator": "-" },
+          "params": {
+            "value": 3,
+            "operator": "-"
+          },
           "txt": "-3"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 9, "operator": "+" },
+          "params": {
+            "value": 9,
+            "operator": "+"
+          },
           "txt": "+9"
         },
         "1_2": {
@@ -3176,7 +5361,10 @@
         "2_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 12, "operator": "/" },
+          "params": {
+            "value": 12,
+            "operator": "/"
+          },
           "txt": "/12"
         },
         "2_2": {
@@ -3187,19 +5375,34 @@
       }
     },
     {
-      "screen": { "moves": 4, "goal": "33", "lcd": "17" },
-      "solution": [1, 4, 5, 8],
+      "screen": {
+        "moves": 4,
+        "goal": "33",
+        "lcd": "17"
+      },
+      "solution": [
+        1,
+        4,
+        5,
+        8
+      ],
       "buttons": {
         "0_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 2, "operator": "*" },
+          "params": {
+            "value": 2,
+            "operator": "*"
+          },
           "txt": "x2"
         },
         "1_1": {
           "color": "darkblue",
           "type": "operation",
-          "params": { "value": 4, "operator": "-" },
+          "params": {
+            "value": 4,
+            "operator": "-"
+          },
           "txt": "-4"
         },
         "1_2": {
@@ -3210,14 +5413,29 @@
         "2_2": {
           "color": "lightorange",
           "type": "shiftnumber",
-          "params": { "direction": "left-right" },
+          "params": {
+            "direction": "left-right"
+          },
           "txt": "< Shift"
         }
       }
     },
     {
-      "screen": { "moves": 8, "goal": "20", "lcd": "125" },
-      "solution": [5, 8, 5, 8, 8, 5, 5, 8],
+      "screen": {
+        "moves": 8,
+        "goal": "20",
+        "lcd": "125"
+      },
+      "solution": [
+        5,
+        8,
+        5,
+        8,
+        8,
+        5,
+        5,
+        8
+      ],
       "buttons": {
         "1_2": {
           "color": "lightorange",

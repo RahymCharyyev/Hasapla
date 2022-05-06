@@ -25,10 +25,10 @@ class CalculatorGame extends Component {
       face: "",
       moves: 0,
       goal: "0",
-      lcd: "LOAD..."
+      lcd: "Ýüklenýär...",
     },
     keyboard: [],
-    solution: []
+    solution: [],
   };
 
   //Carga un nivel...
@@ -48,10 +48,10 @@ class CalculatorGame extends Component {
       screen: {
         face: "happy",
         level,
-        ...newLevel.screen
+        ...newLevel.screen,
       },
       keyboard: newLevel.keyboard,
-      solution: newLevel.solution
+      solution: newLevel.solution,
     }));
   };
 
@@ -81,7 +81,7 @@ class CalculatorGame extends Component {
               prevState.keyboard[0][2] = {
                 color: "darkgreen",
                 type: "nextlevel",
-                txt: "OK"
+                txt: "OK",
               };
               prevState.keyboard[2][0] = prevState.keyboard[0][0] = null;
             } else if (this.state.screen.moves - 1 <= 0) {
@@ -97,7 +97,7 @@ class CalculatorGame extends Component {
             prevState.screen = {
               ...prevState.screen,
               lcd: String(newState),
-              moves: this.state.screen.moves - 1
+              moves: this.state.screen.moves - 1,
             };
             this.setState(() => prevState);
           }
@@ -122,21 +122,17 @@ class CalculatorGame extends Component {
           this.state.numLevel + button.params.value <= 0
             ? maxLevelsExist
             : this.state.numLevel + button.params.value > maxLevelsExist
-              ? 1
-              : this.state.numLevel + button.params.value;
+            ? 1
+            : this.state.numLevel + button.params.value;
         const keyboardBase = [...this.state.keyboard];
         keyboardBase[1][1].txt = String(numLevel);
         this.setState(() => ({
           numLevel,
-          keyboard: keyboardBase
+          keyboard: keyboardBase,
         }));
       } else if (button.type === "continuegame") {
         this.loadlevel(this.state.numLevel);
-      } else if (
-        button.type === "code" ||
-        button.type === "twitter" ||
-        button.type === "page"
-      ) {
+      } else if (button.type === "code" || button.type === "page") {
         //Lleva a las url's de los créditos...
         window.open(urlsButtons[button.type], "_blank");
       } else if (button.type === "solvelevel") {
@@ -154,14 +150,14 @@ class CalculatorGame extends Component {
         //Se debe establecer que se está en modo guiado...
         this.setState(() => ({
           modeResolve: true,
-          keyboard: keyboardBase
+          keyboard: keyboardBase,
         }));
       }
     }
   };
 
   componentDidMount() {
-    loadLevels(data => {
+    loadLevels((data) => {
       urlsButtons = data.urls;
       this.loadlevel(data.level);
     });
@@ -182,7 +178,7 @@ class CalculatorGame extends Component {
               keyboard={this.state.keyboard}
               resolveWorld={{
                 modeResolve: this.state.modeResolve,
-                orden: this.state.solution[this.state.ordenResolve]
+                orden: this.state.solution[this.state.ordenResolve],
               }}
               disabled={disabled}
               handlePressButton={this.handlePressButton}

@@ -18,30 +18,14 @@ export default () => ({
       {
         color: "lightblue",
         type: "menu",
-        txt: "Menu",
+        txt: "Sazlamalar",
       },
       null,
       null,
     ],
   ],
   menu: [
-    [
-      {
-        type: "code",
-        txt: "Code",
-        params: { url: "" },
-      },
-      {
-        type: "page",
-        txt: "About",
-        params: { url: "" },
-      },
-      {
-        color: "lightorange",
-        type: "twitter",
-        txt: "@ostjh",
-      },
-    ],
+    [null, null, null],
     [
       {
         color: "lightblue",
@@ -62,12 +46,12 @@ export default () => ({
       },
     ],
     [
+      null,
       {
         color: "darkred",
         type: "continuegame",
-        txt: "Go!",
+        txt: "Oýna!",
       },
-      null,
       null,
     ],
   ],

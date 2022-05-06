@@ -4,10 +4,10 @@ let levels = [];
 
 //Cargar los niveles a través de un archivo .json, además valores de configuración como las urls de los créditos...
 //Se consume el valor almacenado en localStorage del nivel en que está el usuario...
-export const loadLevels = callback => {
+export const loadLevels = (callback) => {
   fetch("worlds.json")
-    .then(r => r.json())
-    .then(json => {
+    .then((r) => r.json())
+    .then((json) => {
       levels = json.worlds;
       const level = +localStorage.getItem("levelGame") || 1;
       callback({ level, urls: json.urls });
@@ -19,7 +19,7 @@ export const maxLevels = () => levels.length;
 
 //Genera el teclado que se mostrará, dependiendo del tipo...
 export const getKeyboard = (level, type = "game") => {
-  let screen = { lcd: "PAUSE" };
+  let screen = { lcd: "Sazlamalar" };
   let solution = [];
   //Traer el tipo de teclado...
   const keyboard = baseKeyboards()[type];

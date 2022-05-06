@@ -8,7 +8,7 @@ const LCD = ({ moves, goal, lcd, level, face, typeKeyboard }) => {
     <div className="lcd_frame">
       <div className="lcd_housing">
         {typeKeyboard === "game" && (
-          <div className="lcd_level_txt">LEVEL: {addInitialZero(level)}</div>
+          <div className="lcd_level_txt">DEREJE: {addInitialZero(level)}</div>
         )}
         <div className="lcd_content">
           <div
@@ -21,14 +21,14 @@ const LCD = ({ moves, goal, lcd, level, face, typeKeyboard }) => {
               typeKeyboard !== "game" ? "lcd_pause" : ""
             }`}
           >
-            {typeKeyboard === "game" && `MOVES: ${addInitialZero(moves)}`}
+            {typeKeyboard === "game" && `Göçümler: ${addInitialZero(moves)}`}
           </div>
           <div
             className={`lcd_option lcd_goal ${
               typeKeyboard !== "game" ? "lcd_pause" : ""
             }`}
           >
-            {typeKeyboard === "game" && `GOAL: ${goal}`}
+            {typeKeyboard === "game" && `Ýetmeli san: ${goal}`}
           </div>
           <div className="lcd_text">{lcd}</div>
         </div>
@@ -43,7 +43,7 @@ LCD.prototype = {
   lcd: PropTypes.string,
   level: PropTypes.number,
   face: PropTypes.string,
-  typeKeyboard: PropTypes.string
+  typeKeyboard: PropTypes.string,
 };
 
 export default LCD;
